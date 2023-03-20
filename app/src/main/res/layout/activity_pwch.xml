@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Pwch">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/together"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="비밀번호 변경"
+            android:background="#D3D3D3"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="계정확인"
+            android:layout_marginTop="100dp"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp">
+
+
+            <TextView
+                android:id="@+id/id"
+                android:text="ID"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <EditText
+                android:id="@+id/ID_EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text="아이디를 입력해주세요."
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/paaword"
+                android:text="PASS\nWORD"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <EditText
+                android:id="@+id/PASSWORD_EditText"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:ems="20"
+                android:inputType="textPersonName"
+                android:text="비밀번호를 입력해주세요."
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/pwchok"
+            android:text="학인"
+            android:backgroundTint="#696969"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal" >
+            <ImageButton
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#FFFFFF"
+                android:layout_weight="1"
+                android:src="@drawable/homebtn"
+                android:scaleType="fitCenter"
+                />
+            <ImageButton
+                android:id="@+id/mypg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="bottom"
+                android:backgroundTint="#FFFFFF"
+                android:layout_weight="1"
+                android:src="@drawable/mypage"
+                android:scaleType="fitCenter" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

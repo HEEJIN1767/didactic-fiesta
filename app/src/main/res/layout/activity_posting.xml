@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Posting">
+
+    <TextView
+        android:id="@+id/together"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="게시물 관리"
+        android:background="#D3D3D3"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/ct"
+                android:layout_marginTop="50dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 오늘 갱년기를 체크해봤는데..."
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/ct1"
+                android:background="#D3D3D3"
+                android:text="운동을 꾸준히 하니 중증도가..."
+                android:textSize="15dp"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/ct2"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:id="@+id/ct3"
+                android:background="#D3D3D3"
+                android:text="전에 한 프로그램을 보고 먹기 시작한 음식..."
+                android:textSize="15dp"
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="80dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal" >
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="bottom"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_weight="1"
+                    android:src="@drawable/homebtn"
+                    android:scaleType="fitCenter"
+                    />
+                <ImageButton
+                    android:id="@+id/mypg"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="bottom"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_weight="1"
+                    android:src="@drawable/mypage"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+</LinearLayout>
+   </LinearLayout>

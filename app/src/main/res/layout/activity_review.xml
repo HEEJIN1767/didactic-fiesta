@@ -1,0 +1,164 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Review">
+
+
+    <TextView
+        android:id="@+id/together"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="댓글 관리"
+        android:background="#D3D3D3"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/ct1"
+        android:layout_marginTop="50dp"
+        android:background="#D3D3D3"
+        android:text="제목 : 갱년기에 좋은 추천 음식"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:id="@+id/ct2"
+        android:layout_marginTop="30dp"
+        android:background="#D3D3D3"
+        android:text="제목 : 갱년기에 좋은 추천 음식"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/ct3"
+        android:layout_marginTop="30dp"
+        android:background="#D3D3D3"
+        android:text="제목 : 갱년기에 좋은 추천 음식"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
+
+
+    <TextView
+        android:id="@+id/ct4"
+        android:layout_marginTop="30dp"
+        android:background="#D3D3D3"
+        android:text="제목 : 갱년기에 좋은 추천 음식"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp" />
+
+
+            <TextView
+                android:id="@+id/ct5"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/ct6"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/ct7"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/ct8"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/ct9"
+                android:layout_marginTop="30dp"
+                android:background="#D3D3D3"
+                android:text="제목 : 갱년기에 좋은 추천 음식"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/homebtn" />
+
+        <ImageButton
+            android:id="@+id/mypg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mypage" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
