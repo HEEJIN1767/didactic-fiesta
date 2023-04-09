@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import java.util.Map;
+
 public class Login extends AppCompatActivity {
 
     @Override
@@ -17,7 +19,6 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ImageButton Hb;
-
         Hb = (ImageButton)findViewById(R.id.hb);
         Hb.setOnClickListener(new View.OnClickListener() { //버튼 클릭 시, 화면 전환
             @Override
@@ -34,6 +35,39 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent Intent = new Intent(getApplicationContext(),Mypage.class);
+                startActivity(Intent);
+            }
+        });
+
+        ImageButton Map;
+
+        Map = (ImageButton)findViewById(R.id.map);
+        Map.setOnClickListener(new View.OnClickListener() { //버튼 클릭 시, 화면 전환
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(getApplicationContext(),Myhos.class);
+                startActivity(Intent);
+            }
+        });
+
+        ImageButton Cklist;
+
+        Cklist = (ImageButton)findViewById(R.id.cklist);
+        Cklist.setOnClickListener(new View.OnClickListener() { //버튼 클릭 시, 화면 전환
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(getApplicationContext(),Checklist.class);
+                startActivity(Intent);
+            }
+        });
+
+        ImageButton Cm;
+
+        Cm = (ImageButton)findViewById(R.id.cm);
+        Cm.setOnClickListener(new View.OnClickListener() { //버튼 클릭 시, 화면 전환
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(getApplicationContext(),Community.class);
                 startActivity(Intent);
             }
         });

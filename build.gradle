@@ -6,7 +6,7 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:4.1.2"
-
+        classpath 'com.google.gms:google-services:4.3.15'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -17,9 +17,9 @@ allprojects {
         google()
         jcenter()
 
-       // mavenCentral()
+        mavenCentral()
         //카카오 SDK 레포리지 설정
-       // maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/'}
+        maven { url 'https://devrepo.kakao.com/nexus/content/groups/public/'}
 
     }
 }

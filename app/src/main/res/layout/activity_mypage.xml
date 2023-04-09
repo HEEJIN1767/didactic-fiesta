@@ -13,14 +13,16 @@
         android:orientation="vertical" >
 
 
-        <ImageView
-            android:id="@+id/my"
+        <TextView
+            android:id="@+id/together"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:background="#D3D3D3"
-            android:scaleType="fitCenter"
+            android:layout_height="110dp"
+            android:text="My page"
+            android:textColor="@color/white"
+            android:background="#54bebb"
             android:layout_gravity="center"
-            android:src="@drawable/mypage" />
+            android:textAlignment="center"
+            android:textSize="70dp"/>
 
 
 
@@ -43,7 +45,7 @@
             android:id="@+id/re"
             android:text="다시하기"
             android:layout_gravity="center"
-            android:backgroundTint="#696969"/>
+            android:backgroundTint="#54bebb"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
@@ -83,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
+                android:background="#54bebb"
                 android:layout_weight="1"
                 android:src="@drawable/homebtn"
                 android:scaleType="fitCenter"
@@ -93,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
+                android:background="#54bebb"
                 android:layout_weight="1"
                 android:src="@drawable/mypage"
                 android:scaleType="fitCenter" />

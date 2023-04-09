@@ -6,22 +6,29 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".kakaoApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Newpw"></activity>
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Write"/>
+        <activity android:name=".Community" />
+        <activity android:name=".JoinActivity" />
         <activity android:name=".Pwch" />
+        <activity android:name=".Newpw" />
         <activity android:name=".Change2" />
         <activity android:name=".Change" />
         <activity android:name=".Review" />
         <activity android:name=".Posting" />
-        <activity android:name=".Checklist" />
         <activity android:name=".Mypage" />
+        <activity android:name=".Myhos" />
         <activity android:name=".Contents" />
+        <activity android:name=".Checklist" />
         <activity android:name=".Login" />
+        <activity android:name=".ResultActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +36,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JoinActivity" />
+
+
+
+
+        <activity android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="63f0cbae7322c2ade3938e1ef162f9bd" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

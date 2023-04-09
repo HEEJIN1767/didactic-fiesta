@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "233698258014",
+    "project_id": "loginexample-fe786",
+    "storage_bucket": "loginexample-fe786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233698258014:android:44cc8c641c14e1422818cf",
+        "android_client_info": {
+          "package_name": "com.cookandroid.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233698258014-ls06rrencmb9d8crv7kc3dqq0onkg85o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.myapplication",
+            "certificate_hash": "cd1b9b5a1365fcab0bf686b362a0784117ba52eb"
+          }
+        },
+        {
+          "client_id": "233698258014-o6v3ih9vuraoarlc3si1625ai29hjae2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb2h6pyMaCVeefHhnNkvkyZfECEfP2bqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233698258014-o6v3ih9vuraoarlc3si1625ai29hjae2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

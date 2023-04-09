@@ -9,34 +9,36 @@
 
 
 
-        <ImageView
-            android:id="@+id/contents"
-            android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:background="#D3D3D3"
-            android:scaleType="fitCenter"
-            android:layout_gravity="center"
-            android:src="@drawable/hb" />
+    <TextView
+        android:id="@+id/together"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="WiWe\nContents"
+        android:textColor="@color/white"
+        android:background="#54bebb"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="45dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal" >
-
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/radio_group1"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -50,17 +52,17 @@
                     android:layout_marginLeft="10dp"
                     android:id="@+id/ch2"/>
 
-                </RadioGroup>
+            </RadioGroup>
 
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/radio_group2"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -74,23 +76,23 @@
                     android:text="야외 "
                     android:layout_marginLeft="10dp"
                     android:id="@+id/ch4"/>
-                </RadioGroup>
+            </RadioGroup>
 
-            </LinearLayout>
+        </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/radio_group3"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                android:orientation="horizontal"
+                android:id="@+id/radio_group3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -102,16 +104,16 @@
                     android:layout_height="wrap_content"
                     android:text="육체적"
                     android:id="@+id/ch6"/>
-                </RadioGroup>
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/radio_group4"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radio_group4"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -123,24 +125,24 @@
                     android:layout_height="wrap_content"
                     android:text="정적 "
                     android:id="@+id/ch8"/>
-                </RadioGroup>
-            </LinearLayout>
+            </RadioGroup>
+        </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <RadioGroup
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:id="@+id/radio_group5"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                android:orientation="horizontal"
+                android:id="@+id/radio_group5"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -152,80 +154,90 @@
                     android:layout_height="wrap_content"
                     android:text="성취감"
                     android:id="@+id/ch10"/>
-                </RadioGroup>
-            </LinearLayout>
+            </RadioGroup>
 
-
-
-
-            <TextView
-                android:id="@+id/ct"
-                android:layout_marginTop="20dp"
-                android:background="#D3D3D3"
-                android:text="공예/만들기 "
-                android:textSize="30dp"
-                android:textStyle="bold"
-                android:layout_width="350dp"
-                android:layout_gravity="center"
-                android:layout_height="50dp" />
-            <TextView
-                android:id="@+id/ct1"
-                android:background="#D3D3D3"
-                android:text="도자기, 캔들, 그림(오일파스텔, 아크릴, 수채화, 컬러링북), 캘리그라피, 뜨개질, 가죽공예, 한지공예..."
-                android:textSize="15dp"
-                android:layout_width="350dp"
-                android:layout_gravity="center"
-                android:layout_height="80dp" />
-
-            <TextView
-                android:id="@+id/ct2"
-                android:layout_marginTop="20dp"
-                android:background="#D3D3D3"
-                android:text="댄스/무용"
-                android:textSize="30dp"
-                android:textStyle="bold"
-                android:layout_width="350dp"
-                android:layout_gravity="center"
-                android:layout_height="50dp" />
-            <TextView
-                android:id="@+id/ct3"
-                android:background="#D3D3D3"
-                android:text="현대무용, 발레, 댄스스포츠"
-                android:textSize="15dp"
-                android:layout_width="350dp"
-                android:layout_gravity="center"
-                android:layout_height="50dp" />
-
-
+            <Button
+                android:id="@+id/sh"
+                android:text="검색"
+                android:backgroundTint="#54bebb"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="70dp"
+                android:layout_gravity="center_horizontal" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:layout_gravity="bottom"
-            android:orientation="horizontal" >
-            <ImageButton
-                android:id="@+id/home"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
-                android:layout_weight="1"
-                android:src="@drawable/homebtn"
-                android:scaleType="fitCenter"
-                />
-            <ImageButton
-                android:id="@+id/mypg"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
-                android:layout_weight="1"
-                android:src="@drawable/mypage"
-                android:scaleType="fitCenter" />
-        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/ct"
+            android:layout_marginTop="20dp"
+            android:background="#D3D3D3"
+            android:text="공예/만들기 "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/ct1"
+            android:background="#D3D3D3"
+            android:text="도자기, 캔들, 그림(오일파스텔, 아크릴, 수채화, 컬러링북), 캘리그라피, 뜨개질, 가죽공예, 한지공예..."
+            android:textSize="15dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/ct2"
+            android:layout_marginTop="20dp"
+            android:background="#D3D3D3"
+            android:text="댄스/무용"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/ct3"
+            android:background="#D3D3D3"
+            android:text="현대무용, 발레, 댄스스포츠"
+            android:textSize="15dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="50dp" />
+
+
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#54bebb"
+            android:layout_weight="1"
+            android:src="@drawable/homebtn"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/mypg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#54bebb"
+            android:layout_weight="1"
+            android:src="@drawable/mypage"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>
 
 
 

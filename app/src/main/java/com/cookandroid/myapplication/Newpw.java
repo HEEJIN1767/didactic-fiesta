@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class Newpw extends AppCompatActivity {
@@ -24,6 +25,17 @@ public class Newpw extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast toast = Toast.makeText(getApplicationContext(), "정상적으로 변경되었습니다.", Toast.LENGTH_LONG);
+            }
+        });
+
+        ImageButton Home;
+
+        Home = (ImageButton)findViewById(R.id.home);
+        Home.setOnClickListener(new View.OnClickListener() { //버튼 클릭 시, 화면 전환
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(getApplicationContext(),Login.class);
+                startActivity(Intent);
             }
         });
 

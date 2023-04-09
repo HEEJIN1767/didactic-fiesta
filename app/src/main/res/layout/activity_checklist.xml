@@ -16,18 +16,18 @@
             android:id="@+id/together"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:text="어플 이름"
-            android:background="#D3D3D3"
+            android:text="WiWe\nTest"
+            android:textColor="@color/white"
+            android:background="#54bebb"
             android:layout_gravity="center"
             android:textAlignment="center"
-            android:textSize="80dp"/>
-
+            android:textSize="45dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:text="갱년기 체크리스트"
+            android:text="갱년기 자가진단 리스트"
             android:textAlignment="center"
-            android:textSize="50dp"
+            android:textSize="40dp"
             android:textColor="@color/black"
             android:layout_gravity="center"
             android:layout_marginTop="150dp"/>
@@ -35,11 +35,12 @@
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
-            android:text="시작"
+            android:text="진단하기"
+            android:id="@+id/chbt"
             android:layout_marginTop="50dp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_gravity="center"
-            android:backgroundTint="#D3D3D3"/>
+            android:backgroundTint="#54bebb"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
+                android:background="#54bebb"
                 android:layout_weight="1"
                 android:src="@drawable/homebtn"
                 android:scaleType="fitCenter"
@@ -62,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:backgroundTint="#FFFFFF"
+                android:background="#54bebb"
                 android:layout_weight="1"
                 android:src="@drawable/mypage"
                 android:scaleType="fitCenter" />
